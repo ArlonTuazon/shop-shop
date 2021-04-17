@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { useQuery } from '@apollo/react-hooks';
 import { idbPromise } from "../utils/helpers";
 import Cart from "../components/Cart";
-// import { useStoreContext } from "../utils/GlobalState";
+
 import { useDispatch, useSelector } from 'react-redux';
 import {
   REMOVE_FROM_CART,
